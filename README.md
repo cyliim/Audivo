@@ -12,8 +12,7 @@ $ git clone https://github.com/cyliim/DiscordHackWeek
 Once installed, navigate to the folder where the repo was cloned to, and move on to configuration
 ## Configuring
 Open the `config.json` file found within the folder where the repo was cloned to, and open it in the editor of your choice.<br>
-First, edit the `prefix` parameter with the prefix of your choice. <br>**Note: Here and in the bot, '.' is the default prefix**<br>
-Secondly, edit the `colour` parameter with the hex color of your choice.<br>**Note: It MUST be a hex colour. Find conversions [here](https://convertingcolors.com)**
+Edit the `prefix` parameter with the prefix of your choice. <br>**Note: Here and in the bot, '.' is the default prefix**<br>
 ## Hosting
 If you haven't already, create a [Discord Account](https://discordapp.com/).<br>
 Go to [discordapp.com/developers/applications](https://discordapp.com/developers/applications) and create a new application. Name it whatever you want, and add whatever picture you want to it.<br>
