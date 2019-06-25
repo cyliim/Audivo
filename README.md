@@ -9,7 +9,11 @@ If not already, go to the [Github Repo](https://github.com/cyliim/DiscordHackWee
 ```
 $ git clone https://github.com/cyliim/DiscordHackWeek
 ```
-Once installed, navigate to the folder where the repo was cloned to, and move on to configuration
+Once installed, navigate to the folder where the repo was cloned to. Open the terminal again and do 
+```
+$ npm i discord.js quick.db fs
+```
+This will install all packages for Audivo to function. Then, move on.
 ## Configuring
 Open the `config.json` file found within the folder where the repo was cloned to, and open it in the editor of your choice.<br>
 Edit the `prefix` parameter with the prefix of your choice. <br>**Note: Here and in the bot, '.' is the default prefix**<br>
