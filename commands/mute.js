@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const ms = require("ms");
 
 module.exports.run = async (client, message, args) => {
-
+    if(!message.member.hasPermission("ADMINISTRATOR" || "MANAGE_CHANNELS" || "MANAGE_MESSAGES"))
   let toMute = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
   if (!toMute) return message.channel.send("Missing argument `<user>`, `<time>` and `<reason>`.");
   let muteReason = args.slice(2).join(" ");
