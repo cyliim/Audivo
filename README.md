@@ -35,8 +35,6 @@ Warning members: **.warn <@user> [reason]**<br>
 Muting members: **.mute <@user> &lt;time&gt; [reason]**<br>
 Purging messages: **.purge <2 - 100>**<br>
 Setting modlog: **.modlog &lt;channel name>**<br>
-Locking down channels: **.lockdown &lt;channel name>**<br>
-Unlocking locked down channels: **.unlock &lt;locked channel name>**<br>
 
 ## Permissions
 
@@ -47,8 +45,6 @@ All commands can be used with the `ADMINISTRATOR` and `MANAGE SERVER` permission
 .mute requires `MANAGE MESSAGES`<br>
 .purge requires `MANAGE MESSAGES`<br>
 .modlog requires `MANAGE CHANNELS`<br>
-.lockdown requires `MANAGE CHANNELS`<br>
-.unlock requires `MANAGE CHANNELS`<br>
 
 ## Support
 
