@@ -1,11 +1,11 @@
 const Discord = require("discord.js")
 const config = require("../config.json")
-module.exports.run = async (client, message, args) => {
+module.exports.run = async (client, message, args, functions) => {
 if(!args[0]) {
     let help = new Discord.RichEmbed()
     .setTitle("Audivo Help Menu")
-    .setDescription(`Use ${config.prefix}help [command] for more info on that command\n\n${config.prefix}kick\n${config.prefix}ban${config.prefix}modlog${config.prefix}help`)
-
+    .setDescription(`Use ${config.prefix}help [command] for more info on that command\n\n${config.prefix}kick\n${config.prefix}ban\n${config.prefix}modlog\n${config.prefix}help\n${config.prefix}mute`)
+message.channel.send(help)
 }
 if(args[0]) {
     let command = args[0];
